@@ -1,7 +1,8 @@
 body {
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
-    background-color: lightgrey;
+    background-image: linear-gradient(to right,lightgrey,lightblue);
+
 }
 
 h1 {
@@ -33,6 +34,14 @@ h1 {
 
 .button {
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -25px 25px;
+    background-color: #898e8c;
+    border: none;
+    color: white;
+    padding: 10px 0px;
 }
 
 @media only screen and (max-width: 600px) {
