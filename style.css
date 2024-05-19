@@ -26,7 +26,6 @@ h1 {
 .box {
     background-color: white;
     border: 1px solid black;
-    /* padding: 20px; */
     font-size: 20pxpx;
     text-align: center;
     border-radius: 15px;
@@ -36,14 +35,10 @@ h1 {
     text-align: center;
 }
 
-.submit {
-    text-align: center;
+@media only screen and (max-width: 600px) {
+    .test-media {}
 }
 
-/@media only screen and (max-width:600px) {
-    media1 {}
-}
-
-@media only screen and (min-width:600px) {
-    media2 {}
+@media only screen and (min-width: 600px) {
+    .test-media2 {}
 }
