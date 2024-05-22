@@ -18,6 +18,10 @@ h1 {
     border-radius: 20px;
 
 }
+.images{
+    height: 150px;
+    width: 180px;
+}
 
 .txt {
     text-decoration: line-through;
@@ -30,9 +34,23 @@ h1 {
     font-size: 20pxpx;
     text-align: center;
     border-radius: 15px;
+    height: 310px;
+    width: 300px;
 }
 
 .button {
+    /* text-align: center; */
+    /* text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -25px 25px;
+    background-color: #898e8c;
+    border: none;
+    color: white;
+    padding: 10px 0px; */
+}
+
+.but {
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -42,12 +60,32 @@ h1 {
     border: none;
     color: white;
     padding: 10px 0px;
+
 }
 
 @media only screen and (max-width: 600px) {
-    .test-media {}
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        /* text-align: center; */
+
+    
+    }
 }
 
 @media only screen and (min-width: 600px) {
-    .test-media2 {}
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto ;
+
+    }
 }
+
+@media only screen and (min-width: 1200px) {
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto  ;
+
+}
+}
+    
